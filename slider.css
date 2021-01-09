@@ -1,0 +1,28 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+.slider{
+ width: 1000px;
+ height: 400px;
+ background: url(roti.jpg);
+ margin: 50px auto;
+ animation: slide 20s infinite;
+}
+@keyframes slide{
+ 20%{
+ background: url(roti2.jpg);
+ }
+ 40%{
+ background: url(roti3.jpg);
+ }
+ 60%{
+ background: url(roti4.jpg);
+ }
+80%{
+ background: url(kek1.jpg);
+ }
+100%{
+ background: url(kek2.jpg);
+ }
+}
